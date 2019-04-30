@@ -14,7 +14,7 @@ setup(
     install_requires=['PGPy'],
     entry_points={
         'console_scripts': [
-            'gnuk-extractor = gnuk-extractor:main_func',
+            'gnuk-extractor = gnuk_extractor:main_func',
         ],
     }
 )
