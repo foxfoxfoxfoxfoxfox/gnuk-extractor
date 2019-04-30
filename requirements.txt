@@ -1,0 +1,1 @@
+git+https://github.com/rot42/PGPy@4d4c0d1dfc35744bf94e572e415f07c1fa160200#egg
