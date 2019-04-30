@@ -58,7 +58,7 @@ def parseargs():
     return args
 
 
-if __name__ == '__main__':
+def main_func():
     args = parseargs()
     # also print info messages
     logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
@@ -87,3 +87,8 @@ if __name__ == '__main__':
         with open(args.out, 'wb') as f:
             # export binary version when writing to file
             f.write(bytes(privkey))
+
+
+
+if __name__ == '__main__':
+    main_func()
