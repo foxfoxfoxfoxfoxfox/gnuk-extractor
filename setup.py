@@ -11,8 +11,7 @@ setup(
     description='Extract PGP private key from Gnuk / Nitrokey Start firmware',
     packages=['gnukextract'],
     # TODO: replace once PGPy pull requests are merged and new version is published on PyPI
-    dependency_links=['https://github.com/rot42/PGPy/#PGPy-0.4.1'],
-    install_requires=['PGPy == 0.4.1'],
+    install_requires=['PGPy'],
     entry_points={
         'console_scripts': [
             'gnuk-extractor = gnuk-extractor:main_func',
